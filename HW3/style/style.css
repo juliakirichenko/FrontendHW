@@ -1,0 +1,161 @@
+body{
+    font-family: 'Inika', serif;
+}
+
+.h1{
+    width: 610px;
+    height: 63px;
+    font-weight: 700px;
+    font-size: 40px;
+    margin: 3%; 0
+}
+
+.liner{
+    border-bottom: 5px solid #3E45E8;
+
+}
+
+.header{
+    min-height: 50px;
+    max-height: 110px;
+    text-align: center;
+    color: #3E45E8;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+}
+
+.header-span{
+    color: #E8C23E;
+}
+
+.banner{
+    background-image: url(../img/backgroung.png);
+    height: 803px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-left: 10%;
+    box-sizing: border-box;  
+}
+
+.content{
+    background-image: url(../img/flag.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    font-size: 48px;
+    color: white;
+    width: 90%;
+    padding-left: 4%;
+    padding-top: 1%;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 0 80px;
+}
+
+.card{
+    border: 1px solid black;
+    width: 30%;
+    color: #1E8DF2;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 4px 57px rgb(0,0,0,0.25);
+}
+
+.card-size{
+    padding-bottom: 2.5%;
+    box-sizing: border-box;
+}
+
+.card-margin{
+    margin: 0 2.5%;
+}
+
+.card__image{
+    width: 100%;
+}
+
+.card__title{
+    font-size: 24px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card__subtitle{
+    color: #E8C23E;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.h2{
+    height: 63px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.liner_block {
+    display:inline-block;
+    width:50%;
+}
+
+.karta{
+    padding-top: 5%;
+    box-sizing: border-box;
+    text-align: center;
+    height: 537px;
+}
+
+.button{
+    background-image: url(../img/bottom_element.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 591px;
+    height: 121px;
+    margin-top: 10%;
+    margin-left: 24%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.button_text{
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 3%;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #2F4A4B;
+    height: 320px;
+    margin-top: 25%;
+}
+
+.contact{
+    padding-top: 1%;
+    box-sizing: border-box;
+    font-size: 36px;
+    color: #A89D9D;
+    font-weight: 400;
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+}
+
+.social{
+    padding-top: 4.5%;
+    box-sizing: border-box;
+}
